@@ -1,0 +1,21 @@
+.carousel-heading{
+    font-size: 100px;
+    font-weight:400;
+    margin-top: 150px;
+}
+.carousel-text{
+    width:380px;
+    margin-top:20px;
+    font-size:20px;
+    font-weight:300;
+}
+.carousel-button{
+    background-color: black;
+    font-size:20px;
+    color:white;
+    width:200px;
+    margin-top:50px;
+    border:none;
+    padding:8px;
+    border-radius:50px;
+}

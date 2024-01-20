@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Medium Clone FrontEnd</title>
+    <link rel="stylesheet" href="css/navbar.css" />
+    <link rel="stylesheet" href="css/carousel.css" />
+    <link rel="stylesheet" href="css/trendinarticles.css" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      .container {
+        width: 1200px;
+        margin: auto;
+        /* margin-top: 90px; */
+        height: 430px;
+        font-family: sans-serif;
+      }
+      .yellow-container {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 550px;
+        border-bottom: 1px solid black;
+        width: 100%;
+        background-color: #ffc017;
+        z-index: -1;
+      }
+    </style>
+  </head>
+  <body>
+    <!--Yellow Box of Carousel Starts-->
+    <div class="yellow-container"></div>
+
+    <!--Yellow Box Of Carousel Ends-->
+    <!--NAVBAR STARTS-->
+    <nav id="navbar">
+      <div class="logo">
+        <div class="nav-logo"></div>
+      </div>
+      <div class="nav-links">
+        <a class="nav-items" href="">Our Story</a>
+        <a class="nav-items" href="">Membership</a>
+        <a class="nav-items" href="">Write</a>
+        <a class="nav-items" href="">Sign in</a>
+        <button class="get-started">Get started</button>
+      </div>
+    </nav>
+    <!--NAVBAR ENDS-->
+
+    <div class="container">
+      <!-- CAROUSEL STARTS -->
+      <div class="carousel">
+        <h1 class="carousel-heading">Stay curious.</h1>
+        <div class="carousel-text">
+          Discover stories, thinking, and expertise from writers on any topic.
+        </div>
+        <button class="carousel-button">Start Reading</button>
+      </div>
+    </div>
+    <!-- CAROUSEL ENDS -->
+
+    <!--Trending Section on medium-->
+    <div class="trending-sign">Trending On Meduim</div>
+    <div class="top-articles">
+      <div class="item item-1">
+        <div class="sign-no">01</div>
+        <div class="text">
+          <span class="author-name">Barr Mosses</span><br />
+          <span class="title">Top 10 Data & AI Trends for 2024 </span><br />
+          <span class="details">Jan 19 · 6 min read</span>
+        </div>
+      </div>
+      <div class="item item-2">
+        <div class="sign-no">02</div>
+        <div class="text">
+          <span class="author-name">Dr.Jason Fung</span><br />
+          <span class="title">The Body’s “Fat Thermostat” Part 1</span><br />
+          <span class="details">Jan 18 · 6 min read</span>
+        </div>
+      </div>
+      <div class="item item-3">
+        <div class="sign-no">03</div>
+        <div class="text">
+          <span class="author-name"
+            >Tomaz Bratanic <span class="between-word">in</span> Towards Data
+            Science</span
+          ><br />
+          <span class="title"
+            >Enhancing Interaction between Language Models and Graph Databases
+            via a </span
+          ><br />
+          <span class="details">Jan 19 · 11 min read</span>
+        </div>
+      </div>
+      <div class="item items-4">
+        <div class="sign-no">04</div>
+        <div class="text">
+          <span class="author-name"
+            >Sean Keran
+            <span class="between-word">in</span> ILUUMINATION-Curated</span
+          ><br />
+          <span class="title">On the Regrets of Being a Parent</span><br />
+          <span class="details">Jan 18 · 6 min read </span>
+        </div>
+      </div>
+      <div class="item items-5">
+        <div class="sign-no">05</div>
+        <div class="text">
+          <span class="author-name">Enrique Dans</span><br />
+          <span class="title">It’s hard to admit, but sometimes</span><br />
+          <span class="details">Jan 19 · 3 min read </span>
+        </div>
+      </div>
+      <div class="item items-6">
+        <div class="sign-no">06</div>
+        <div class="text">
+          <span class="author-name"
+            >Daley Wihelm <span class="between-word">in</span> UX
+            Collective</span
+          ><br />
+          <span class="title">Why I was wrong about sparkles </span><br />
+          <span class="details">Jan 19 · 4 min read </span>
+        </div>
+      </div>
+    </div>
+    <div class="border-container"></div>
+  </body>
+</html>
